@@ -1,6 +1,8 @@
 def conteo_caracteres(cadena):
-    """ Función que devuelve un diccionario con el conteo de 
-    caracteres de una cadena de texto """
+    """
+    Función que devuelve un diccionario con el conteo de 
+    caracteres de una cadena de texto
+    """
     conteo = {}
     for caracter in cadena:
         if caracter in conteo:

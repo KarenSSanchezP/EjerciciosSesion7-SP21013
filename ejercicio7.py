@@ -1,6 +1,8 @@
 def num_divisores(n): 
-    """Función que devuelve el número de divisores de un 
-    número dado utilizando una función sum()"""
+    """
+    Función que devuelve el número de divisores de un 
+    número dado utilizando una función sum()
+    """
     return sum(1 for i in range(1, n+1) if n % i == 0)
 
 print("Bienvenido. Ingrese los límites para generar la lista.")
