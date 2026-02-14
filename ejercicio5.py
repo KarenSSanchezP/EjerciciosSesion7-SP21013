@@ -1,4 +1,6 @@
 def torres_hanoi(n, desde, hasta, aux):
+    """ Función recursiva que realiza el algoritmo de
+    Torres de Hanói para n discos """
     if n == 0: # Caso base: No hay discos
         print("No hay discos")
         return 0
